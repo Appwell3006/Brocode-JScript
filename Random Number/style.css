@@ -1,0 +1,26 @@
+body{
+    font-family: Verdana;
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#mylabel{
+    font-size: 100px;
+    font-weight: 500;
+}
+#mybutton{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 25px;
+    border-color: crimson;
+    background-color: blue;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+#mybutton:hover{
+    background-color: aqua;
+    color: black;
+}
