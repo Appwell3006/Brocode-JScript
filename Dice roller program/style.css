@@ -1,0 +1,40 @@
+body{
+    background-color: #b98b52;
+}
+.container{
+    background-color: #fec180;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px;
+    max-width: fit-content;
+    margin: auto;
+
+}
+.inside{
+    background-color: #ffb097;
+    padding: 15px;
+    font-weight: bold;
+}
+.inside input{
+    font-size: 2rem;
+    text-align: center;
+    width: 100px;
+}
+.inside button{
+    font-size: 1.5rem;
+    border: none;
+    background-color: #b98b52;
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+    
+}
+.inside button:hover{
+    background-color: hsl(33, 42%, 20%);
+    color: rgb(255, 255, 255);
+}
+.inside button:active{
+    background-color: hsl(33, 42%, 90%);
+    color: rgb(0, 0, 0);
+}
