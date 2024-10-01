@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventDriven_Concepcion</title>
+</head>
+
+<style>
+    body{
+        background-color: #FF6500;
+    }
+    .Frame1{
+        padding: 15px;
+        margin: auto;
+
+        max-width: fit-content;
+        color: aliceblue;
+        text-align: center;
+        background-color: #1E3E62;
+    }
+
+</style>
+
+<body>
+
+    <div class="Frame1">
+
+        <label>First Name</label><br>
+        <input id="myfirstname" type="text"><br><br>
+
+        <label>Last Name</label><br>
+        <input id="mylastname" type="text"><br><br>
+
+        <label>Midle name</label><br>
+        <input id="mymiddlename" type="text"><br><br>
+
+        <label>Mobile Number</label><br>
+        <input id="mynumber" type="text"><br><br>
+
+        <label>Email Address</label><br>
+        <input id="myemail" type="text"><br><br>
+
+        <button id="mysubmit">Submit</button> 
+        <button type="button" onClick="window.location.reload()">
+            Reload Page
+         </button>
+    </div>
+
+    <div class="frame2">
+
+        <p id="result"></p>
+    </div>
+</body>
+
+<script>
+    const myfirstname = document.getElementById("myfirstname");
+    const mylastname = document.getElementById("mylastname");
+    const mymiddlename = document.getElementById("mymiddlename");
+    const mynumber = document.getElementById("mynumber");
+    const myemail = document.getElementById("myemail");
+
+    const mysubmit = document.getElementById("mysubmit");
+
+    const result = document.getElementById("result");
+
+
+    mysubmit.onclick = function(){
+            f = myfirstname.value;
+
+        result.textContent = `hello ${myfirstname}`
+    }
+    
+
+</script>
+
+
+</html>
